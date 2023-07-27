@@ -1,0 +1,94 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="Contato.css">
+</head>
+<body>
+    <style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url();
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+#login-container {
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+label, input {
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1.rem;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    right: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #085588;
+    cursor: pointer;
+}
+
+label, textarea {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+textarea {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1.rem;
+    margin-bottom: 20px;
+}
+    </style>
+    <div id ="login-container" >
+    <h1>Fale Conosco:</h1>
+    <br>
+    <br>
+    <form action="">
+        <label for="name">Nome:</label>
+        <input type="name" name="name" id="name" placeholder="Digite seu nome:" autocomplete="off">
+        <label for="email">Email:</label>
+        <input type="email" name="lemail" id="lemail" placeholder="Digite seu E-mail:">
+        <label for="Contato">Envie sua Mensagem:</label>
+        <textarea name="Envie sua mensagem:" id="" cols="30" rows="10" placeholder="Digite sua Mensagem:"></textarea>
+        <input type="submit" value="Enviar"> 
+    </form>    
+</body>
+</html>
