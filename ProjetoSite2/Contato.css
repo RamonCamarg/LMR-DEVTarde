@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+ background-image: url(https://github.com/Danilo-jesus/Ecommerce/blob/main/Website%20ecommerce%20-%20agora/img/background.jpg?raw=true);
+ background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+#login-container {
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+label, input {
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1.rem;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    right: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #c8815f;
+    cursor: pointer;
+}
+
+label, textarea {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+textarea {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1.rem;
+    margin-bottom: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: #fff;
+    padding: 14px 14%;
+}
+
+
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+}
+
+.cabeçalho-link a{
+    color: #111;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover{
+    color: #c8815f;
+}
